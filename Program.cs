@@ -15,7 +15,7 @@ namespace dbexample2
             string bandFilter = Console.ReadLine();
             // var bands = new BandService().GetBands("ed");
             // var bands = new BandService().GetBands("ed");
-            var bands = new BandService().GetBandWithADataTable("ed");
+            var bands = new BandService().GetBandsWithDataTable("ed");
         }
     }
 }
